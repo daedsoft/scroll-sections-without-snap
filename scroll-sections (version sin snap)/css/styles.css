@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.container{   
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;     
+    overflow-y: scroll; 
+    overflow-x: hidden;          
+}
+
+.section{    
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    padding: 10rem;        
+}
+
+.content>h1,
+.content>p,
+.content>a{
+    margin-bottom: 2rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.content>h1{
+    font-size: 3rem;
+}
+
+.content{
+    opacity: 0;        
+    transition: all 1s ease-in;   
+}
+
+.active{
+    opacity: 1;    
+}
+
+.purple{           
+    background-color: purple;
+    color: white;    
+}
+
+.red{       
+    background-color: red;
+    color: white;    
+}
+
+.orange{          
+    background-color: orangered;
+    color: white;    
+}
+
+.blue{          
+    background-color: steelblue;
+    color: white;    
+}
